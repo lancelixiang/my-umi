@@ -1,5 +1,6 @@
 {
   "private": true,
+  "homepage": "https://lancelixiang.github.io/my-umi/",
   "scripts": {
     "start": "umi dev",
     "build": "umi build",
