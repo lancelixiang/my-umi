@@ -4,9 +4,10 @@ import { Link } from 'dva/router';
 export default function() {
   return (
     <div className={styles.normal}>
-      <div className={styles.welcome} />
+      <div className={styles.welcome}/>
       <ul className={styles.list}>
-        <li><Link to="/my-umi">my-umi</Link></li>
+        <li>my-umi</li>
+        <li><Link to="/">index</Link></li>
         <li><Link to="/lance">lance</Link></li>
       </ul>
     </div>

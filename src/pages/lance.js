@@ -6,8 +6,9 @@ export default function() {
     <div className={styles.normal}>
       <div className={styles.welcome} />
       <ul className={styles.list}>
+        <li>lance hahaha</li>
+        <li><Link to="/">index</Link></li>
         <li><Link to="/my-umi">my-umi</Link></li>
-        <li><Link to="/lance">lance</Link></li>
       </ul>
     </div>
   );

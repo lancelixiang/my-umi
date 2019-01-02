@@ -1,7 +1,8 @@
-
 // ref: https://umijs.org/config/
 export default {
   publicPath: 'https://lancelixiang.github.io/my-umi/',
+  // history: 'hash',
+  hash: true,
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
     ['umi-plugin-react', {
@@ -18,4 +19,4 @@ export default {
       },
     }],
   ],
-}
+};
